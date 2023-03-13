@@ -1,0 +1,91 @@
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f2f5f8;
+}
+
+.container{
+    width: 45%;
+    height: 45vh;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 12px 12px 20px #fff,
+            -12px -12px 20px #ffffff;
+}
+.display #screen{
+    width: 97%;
+    height: 70px;
+    font-size: 35px;
+    outline: none;
+    border: none;
+    text-align: right;
+    padding-right: .5em;
+    background: #ecf0f3;
+    border-radius: 6px;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+
+.btns{
+    width: 100%;
+    margin: 1.7em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.btns .row button{
+    width: 80px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+    margin: 5px;
+    border-radius: 4px;
+    box-sizing: 5px 5px 8px #ede9e920,
+               -5px -5px 8px #ffffff;
+               transition: .1s;
+}
+.btns .row button:hover{
+    box-shadow: inset 5px 5px 8px rgba(16, 16, 16, .1),
+                inset -5px -5px 8px #fff;
+                background: #fff;
+}
+#screen:hover{
+    color: #42f202;
+    background-color: rgb(225, 12, 104);
+}
+
+#eval{
+    background: #05f6c1;
+    color: #fff;
+    box-shadow: inset 5px 5px 8px #66d9ff,
+                inset -5px -5px 8px #00ace6;
+}
+#eval:hover{
+    box-shadow: inset 5px 5px 8px #00ace6
+                   inset -5px -5px 8px #00ace6;
+}
+
+#ac{
+    background: #33cc33;
+    color: #fff;
+}
+#ac:hover{
+    box-shadow: inset 5px 5px 8px #f5f6f7,
+                   inset -5px -5px 8px #f65201;
+}
+
+#ce{
+    background: #ff3399;
+    color: #fff;
+}
+#ce:hover{
+    box-shadow: inset 5px 5px 8px #e60073,
+                   inset -5px -5px 8px #ff3399;
+}
